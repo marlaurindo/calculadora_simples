@@ -1,2 +1,3 @@
-# calculadora_simples
-Fazendo uma Calculadora Simples - Tecnologias html5 / css3 / javascript / git
+Segue imagem do proje
+
+<p> <img src="https://github.com/marlaurindo/calculadora_simples/blob/master/calculadora_simples.png"/></p>
