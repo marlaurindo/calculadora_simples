@@ -3,13 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style src="css/estilo.css"></style>
+    <link rel="stylesheet"  href="css/estilo.css" />
+    <script src="js/main.js"></script>
     <title>Calculadora Simples - Tecnologias HTML5,CSS3 e Javascript</title>
 </head>
 <body>
-    <h1>Calculadora Simples</h1>
-    <h2>Usando HTML5 / CSS3 / JAVASCRIPT</h2>
-    <h3>Javascript : if e else </h3>
-    <script src="js/main.js"></script>
+    
+    
+    <div id="calculadora">
+
+      <textarea id="display" disabled row="1" ></textarea>
+
+      <div>
+        <button onclick="pressNum(this)">1</button>
+        <button onclick="pressNum(this)">2</button>
+        <button onclick="pressNum(this)">3</button>
+        <button onclick="pressOperator(this)">+</button>
+      </div>
+      <div>
+        <button onclick="pressNum(this)">4</button>
+        <button onclick="pressNum(this)">5</button>
+        <button onclick="pressNum(this)">6</button>
+        <button onclick="pressOperator(this)">-</button>
+      </div>
+      <div>
+        <button onclick="pressNum(this)">7</button>
+        <button onclick="pressNum(this)">8</button>
+        <button onclick="pressNum(this)">9</button>
+        <button onclick="pressOperator(this)">*</button>
+      </div>
+      <div>
+        <button onclick="pressNum(this)">0</button>
+        <button onclick="pressOperator(this)">.</button>
+        <button id="limpatela" onclick="clearAll()" >c</button>
+        <button onclick="pressOperator(this)">/</button>
+      </div>
+      <button id="igualdade" onclick="pressEqual()">=</button>
+    </div>
+
+    
 </body>
 </html>
